@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <EditText
+        android:id="@+id/newTaskText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/transparent"
+        android:hint="What are you planning?"
+        android:minHeight="32dp"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:textColorHint="#757575"
+        tools:ignore="Autofill,HardcodedText,TextFields" />
+
+    <Button
+        android:id="@+id/newTaskButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/newTaskText"
+        android:layout_alignParentEnd="true"
+        android:background="@android:color/transparent"
+        android:text="Save"
+        android:textAllCaps="false"
+        android:textColor="#757575"
+        android:textSize="16sp"
+        tools:ignore="HardcodedText" />
+
+</RelativeLayout>
